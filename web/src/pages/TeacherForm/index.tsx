@@ -21,7 +21,7 @@ function TeacherForm(){
 	const [whatsapp, setWhatsapp] = useState('');
 	const [bio, setBio] = useState('');
 
-	const [subject, setSubject] = useState('select');
+	const [subject, setSubject] = useState('');
 	const [cost, setCost] = useState('');
 
 	const [scheduleItems, setScheduleItems] = useState([
